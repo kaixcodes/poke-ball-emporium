@@ -1,59 +1,141 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Poké Balls - Poké Ball Emporium</title>
-    </head>>
-    
-    <body>
-        <h1>Poké Balls</h1> 
-        
-        <p>
-            Each of our Pokémon balls are well selected from a wide variety of fully test and operational Pokéballs
-                             Our Poké Ball collection has many different types for trainers.
-                                  Each Poké Ball has its own special features and uses.
-        </p>
-        
-        <hr>
-        
-        <h2>1. Poké Ball </h2>
-        
-        <p>The standard Poké Ball used by trainers to catch Pokémon. It is the basic Poké Ball and is commonly used by trainers.</p>
-        
-        <h2>2. Great Ball </h2>
-       
-        <p>The Great Ball is an upgraded version of the regular Poké Ball. It has a higher chance of catching Pokémon.</p>
-        
-        <h2>3. Ultra Ball </h2>
-        
-        <p>The Ultra Ball is a powerful Poké Ball with an even higher chance of catching Pokémon than a Great Ball. </p>
-        
-        <h2>4. Master Ball </h2>
-       
-        <p>The Master Ball is an extremely powerful Poké Ball. It can catch a Pokémon without fail.</p>
-        
-        <h2>5. Quick Ball </h2>
-        
-        <p>The Quick Ball is most effective when it is used at the beginning of a battle.</p>
-        
-        <h2>6. Premier Ball </h2>
-        
-        <p>The Premier Ball is a special white Poké Ball. It has the same basic catching ability as a regular Poké Ball.</p>
-       
-        <h2>7. Net Ball </h2>
-       
-        <p>The Net Ball is especially effective for catching Bug-type and Water-type Pokémon.</p>
-        
-        <h2>8. Luxury Ball </h2>
-       
-        <p>The Luxury Ball is designed to make Pokémon feel more comfortable after being caught.</p>
-       
-        <h2>9. Dusk Ball </h2>
-       
-        <p>The Dusk Ball is especially useful in dark places such as caves and is also useful at night.</p>
-       
-    <hr>
+<head>
+    <title>Poké Balls - Poké Ball Emporium</title>
 
-    <a href="index.html">Back to Home</a>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .pokeball-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .pokeball {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            min-height: 160px;
+        }
+
+        .pokeball h2 {
+            margin-top: 0;
+        }
+
+        .pokeball p {
+            line-height: 1.5;
+        }
+
+        .back {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Poké Balls</h1>
+
+    <p style="text-align: center;">
+        Learn about the different Poké Balls available at Poké Ball Emporium.
+    </p>
+
+    <div class="pokeball-container">
+
+        <!-- Row 1 -->
+
+        <div class="pokeball">
+            <h2>Poké Ball</h2>
+            <p>
+                The standard Poké Ball used by trainers to catch Pokémon.
+                It is the most common Poké Ball.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Great Ball</h2>
+            <p>
+                The Great Ball is an upgraded Poké Ball that has a
+                better chance of catching Pokémon.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Ultra Ball</h2>
+            <p>
+                The Ultra Ball is more powerful than the Great Ball
+                and has a higher chance of catching Pokémon.
+            </p>
+        </div>
+
+
+        <!-- Row 2 -->
+
+        <div class="pokeball">
+            <h2>Master Ball</h2>
+            <p>
+                The Master Ball is an extremely powerful Poké Ball
+                that can catch a Pokémon without fail.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Premier Ball</h2>
+            <p>
+                The Premier Ball is a special Poké Ball with a
+                unique white design.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Quick Ball</h2>
+            <p>
+                The Quick Ball is especially useful when it is
+                used at the beginning of a battle.
+            </p>
+        </div>
+
+
+        <!-- Row 3 -->
+
+        <div class="pokeball">
+            <h2>Dusk Ball</h2>
+            <p>
+                The Dusk Ball is especially useful in dark places,
+                such as caves, and at night.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Net Ball</h2>
+            <p>
+                The Net Ball is especially effective for catching
+                Bug-type and Water-type Pokémon.
+            </p>
+        </div>
+
+        <div class="pokeball">
+            <h2>Luxury Ball</h2>
+            <p>
+                The Luxury Ball is designed to make Pokémon feel
+                more comfortable after being caught.
+            </p>
+        </div>
+
+    </div>
+
+    <a class="back" href="index.html">Back to Home</a>
 
 </body>
 </html>
