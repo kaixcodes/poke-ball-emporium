@@ -8,25 +8,25 @@ h1 {
 text-align: center;
 }
 
-.pokeball-container {
+.items-contianer {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 30px;
 margin-top: 30px;
 }
 
-.pokeball {
+.product-information {
 text-align: center;
 border: 1px solid #ccc;
 padding: 20px;
 min-height: 160px;
 }
 
-.pokeball h2 {
+.product-information h2 {
 margin-top: 0;
 }
 
-.pokeball p {
+.product-information p {
 line-height: 1.5;
 }
 
